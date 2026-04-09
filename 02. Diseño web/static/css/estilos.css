@@ -1,0 +1,158 @@
+body {
+	background-color: darkgray;
+}
+h1 {
+	color: white;
+	align-self: center;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 25px;
+}
+h2 {
+	color: white;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 20px;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%; 
+}
+.image2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 12%;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+p {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 20px;
+}
+ul {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 17px;
+}
+ol {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 17px;
+}
+h3 {
+	color: white;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 19px;
+}
+tr:nth-child(even){
+	background-color: lightgray;
+}
+table th, td{
+	border: 1px solid black;
+}
+td {
+	font-family: "Comic Sans MS", Arial, Lucida Sans;
+	font-size: 16px;
+}
+.link1{
+	color: white;
+	font-size: 18px;
+	margin-left: 10px;
+	padding: 10px;
+}
+h4 {
+	color: white;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.link1:hover{
+	background: #373cc1;
+}
+.button {
+	display:none;
+}
+form{
+	margin: 60px;
+}
+
+@media screen and (max-width: 600px) {
+	header{
+		text-align: center;
+	}
+	h4{
+		background-color: grey;
+	}
+	.image {
+		width: 50%;
+	}
+	.image2{
+		width: 50%;
+	}
+	.button{
+		display: block;
+		text-align: left;
+	}
+	.topnav{
+		display: none;
+	}
+	.lista{
+			display: none;
+	}
+	input:checked ~ ul{
+		display: block;
+	}
+	input{
+		display: none;
+	}
+	label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+li {
+  display: block;
+  background: none;
+  margin: 0;
+  padding: 5px;
+  list-style: arabic-indic;
+  border-bottom: 1px solid grey;
+  font-size: 17px;
+}
+p {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 18px;
+}
+.tabla {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+tr {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+}
+th, td {
+  flex: 1;
+  text-align: center;
+}
+}
